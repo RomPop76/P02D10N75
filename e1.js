@@ -2,10 +2,10 @@
 const btn = document.querySelector('button');
 const paragraph = document.querySelector('p');
 
-// Element.addEventListener('jaki wydarzenie', 'co ma się stać')
+// // Element.addEventListener('jaki wydarzenie', 'co ma się stać')
 // btn.addEventListener('click', function () {
 //  console.log("klik!");
-//  paragraph.style.backgroundColor = "red";
+// //  paragraph.style.backgroundColor = "red";
 // })
 
 // btn.addEventListener('mouseover', function () {
@@ -21,13 +21,13 @@ const paragraph = document.querySelector('p');
 // })
 
 
-let clicksNumber = 0;
+// let clicksNumber = 0;
 
-btn.addEventListener('click', function () {
+// btn.addEventListener('click', function () {
  // clicksNumber = clicksNumber + 1;
- clicksNumber++; //inkrementacja
+//  clicksNumber++; //inkrementacja
  // clicksNumber = clicksNumber + 2;
  // clicksNumber += 2;
- console.log("klik numer: ", clicksNumber)
-})
+//  console.log("klik numer: ", clicksNumber)
+// })
 
