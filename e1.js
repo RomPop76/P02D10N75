@@ -21,13 +21,13 @@ const paragraph = document.querySelector('p');
 // })
 
 
-// let clicksNumber = 0;
+let clicksNumber = 0;
 
-// btn.addEventListener('click', function () {
- // clicksNumber = clicksNumber + 1;
+btn.addEventListener('click', function () {
+//  clicksNumber = clicksNumber + 1;
 //  clicksNumber++; //inkrementacja
- // clicksNumber = clicksNumber + 2;
- // clicksNumber += 2;
-//  console.log("klik numer: ", clicksNumber)
-// })
+//  clicksNumber = clicksNumber + 2;
+ clicksNumber += 2;
+ console.log("klik numer: ", clicksNumber)
+})
 
